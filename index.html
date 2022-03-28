@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="navbar">
+        <h1>Dojonary</h1>
+        <textarea name="search" id="search" cols="30" rows="1">Search</textarea>
+        <button class="login" onclick="logout(this)">Login</button>
+    </div>
+    <div class="container" >
+        <div class="left">
+            <div class="defbox">
+                <div class="defleft">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button class="likes" onclick="alert('Ninja was liked')">13 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A practitioner in the <span>Japanese</span> art of <span>ninjutsu</span> </p>
+                </div>
+            </div>
+            <div class="defbox">
+                <div class="defleft">
+                    <h1>ninja</h1>
+                    <h3>noun</h3>
+                    <h3>Plural: ninjas</h3>
+                    <button class="likes">37 likes</button>
+                </div>
+                <div class="definition">
+                    <p>A <span>programmer</span> who breaks down problems with <span>zen</span> like focus</p>
+                </div>
+            </div>
+        </div>
+        <div class="right">Dojonary is defined by YOU
+            <button class="add" onclick="hide(this)">Add Defintion</button>
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
